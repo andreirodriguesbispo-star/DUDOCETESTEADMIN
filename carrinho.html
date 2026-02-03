@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Dudôce</title>
+  <link rel="icon" type="image/png" href="IMG/sublogoredondo2.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500,600,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsiv.css" />
+  
+</head>
+<body>
+
+  <header class="hd" data-hd>
+  <div class="hdWr">
+    <a class="hdLogo" href="index.html" aria-label="Ir para a home">
+      <img class="hdLogoImg" src="IMG/logo dudoce.png" alt="Dudôce" />
+    </a>
+
+    <nav class="hdNav" aria-label="Navegação">
+      <a class="hdLnk" href="produtos.html">Cardápio</a>
+      <a class="hdLnk" href="index.html#como">Como funciona</a>
+      <a class="hdLnk" href="index.html#sobre">Sobre</a>
+      <a class="hdLnk" href="index.html#footer">Contato</a>
+      <a class="hdLnk" href="index.html#faq">FAQ</a>
+    </nav>
+
+    <div class="hdAct">
+      <a class="hdCart" href="carrinho.html" aria-label="Abrir carrinho">
+        <span class="hdCartIco" aria-hidden="true">
+  <svg width="25" height="25" viewBox="0 0 24 24" fill="none"
+       xmlns="http://www.w3.org/2000/svg">
+    <path d="M6 7h12l-1 13H7L6 7Z"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linejoin="round"/>
+    <path d="M9 7a3 3 0 0 1 6 0"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"/>
+  </svg>
+</span>
+        <span class="hdCartQty" data-cart-count>0</span>
+      </a>
+
+      <button class="hdTgl" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="hdMenu">
+        <span class="hdBar"></span><span class="hdBar"></span><span class="hdBar"></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="hdMenu" id="hdMenu" aria-hidden="true" aria-label="Menu">
+    <div class="hdMenuWr">
+      <a class="hdMLnk" href="produtos.html" data-hdclose>Cardápio</a>
+      <a class="hdMLnk" href="index.html#como" data-hdclose>Como funciona</a>
+      <a class="hdMLnk" href="index.html#sobre" data-hdclose>Sobre</a>
+      <a class="hdMLnk" href="index.html#footer" data-hdclose>Contato</a>
+      <a class="hdMLnk" href="index.html#faq" data-hdclose>FAQ</a>
+      <a class="hdMLnk" href="carrinho.html" data-hdclose>Carrinho</a>
+
+      <div class="hdMenuLine" aria-hidden="true"></div>
+
+    </div>
+  </nav>
+</header>
+
+  <main id="conteudo">
+
+  <section class="cr01" aria-label="Carrinho">
+    <div class="cr01a">
+      <div class="cr01b" data-fx="up">
+        <h1 class="cr01c">Seu carrinho</h1>
+        <p class="cr01d">Revise itens, ajuste quantidades e finalize pelo WhatsApp.</p>
+      </div>
+
+      <div class="cr01e" id="crMount" data-fx="up">
+        <!-- JS monta aqui -->
+      </div>
+    </div>
+  </section>
+
+</main>
+
+  <footer class="ft">
+  <div class="ftWr">
+    <div class="ftCol">
+      <a class="ftLogo" href="index.html" aria-label="Voltar para a home">
+        <img class="ftLogoImg" src="IMG/logodudocebege.png" alt="Dudôce" />
+      </a>
+
+      <p class="ftTxt">
+        Confeitaria artesanal Dudôce — doces feitos sob encomenda com carinho e acabamento premium.
+      </p>
+    </div>
+
+    <nav class="ftNav" aria-label="Links do site">
+      <a class="ftLnk" href="produtos.html">Cardápio</a>
+      <a class="ftLnk" href="index.html#como">Como funciona</a>
+      <a class="ftLnk" href="index.html#sobre">Sobre</a>
+      <a class="ftLnk" href="index.html#footer">Contato</a>
+      <a class="ftLnk" href="index.html#faq">FAQ</a>
+    </nav>
+
+    <div class="ftCol">
+      <p class="ftMini">© <span data-year></span> Dudôce. Todos os direitos reservados.</p>
+
+      <div class="ftSoc" aria-label="Redes sociais">
+        <div class="ftSocTit">Redes sociais</div>
+
+        <div class="ftSocRow">
+          <a class="ftSocLnk" href="mailto:contato@dudoce.com.br" aria-label="Enviar e-mail">
+            <span class="ftSocIco" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+                <path d="M4 6h16v12H4V6Z" stroke="currentColor" stroke-width="1.8" />
+                <path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="ftSocTxt">E-mail</span>
+          </a>
+
+          <a class="ftSocLnk" href="https://instagram.com/dudoce" target="_blank" rel="noopener" aria-label="Abrir Instagram">
+            <span class="ftSocIco" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+                <path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M17.5 6.5h.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="ftSocTxt">Instagram</span>
+          </a>
+
+          <a class="ftSocLnk" href="#" data-wa-direct aria-label="Abrir WhatsApp">
+            <span class="ftSocIco" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+                <path d="M20 12a8 8 0 0 1-12.8 6.4L4 19l.7-3.1A8 8 0 1 1 20 12Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M9.2 9.2c.3-.6.4-.6.7-.6h.5c.1 0 .3 0 .4.3l.7 1.6c.1.2.1.4 0 .6l-.3.4c-.1.1-.2.3-.1.5.2.4.6 1.1 1.3 1.6.7.6 1.4.8 1.8.9.2.1.4 0 .5-.1l.5-.6c.2-.2.3-.2.6-.1l1.6.7c.2.1.3.2.3.4v.5c0 .3 0 .4-.6.7-.6.3-1.9.6-3.6-.2-1.7-.8-3.2-2.5-3.9-4-.7-1.5-.6-2.7-.3-3.3Z" fill="currentColor" opacity=".85"/>
+              </svg>
+            </span>
+            <span class="ftSocTxt">WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <a href="#" data-fab="top" aria-label="Voltar ao topo">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <path d="M12 19V5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M6 11l6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</a>
+  <a href="#" data-fab="wa" data-wa-direct aria-label="WhatsApp">
+    <img src="https://img.icons8.com/ios-filled/50/F3E6C3/whatsapp--v1.png" alt="">
+  </a>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

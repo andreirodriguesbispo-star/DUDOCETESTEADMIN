@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Dudôce</title>
+  <link rel="icon" type="image/png" href="IMG/sublogoredondo2.png">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500,600,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsiv.css" />
+  
+</head>
+<body>
+
+  <header class="hd" data-hd>
+  <div class="hdWr">
+    <a class="hdLogo" href="index.html" aria-label="Ir para a home">
+      <img class="hdLogoImg" src="IMG/logo dudoce.png" alt="Dudôce" />
+    </a>
+
+    <nav class="hdNav" aria-label="Navegação">
+      <a class="hdLnk" href="produtos.html">Cardápio</a>
+      <a class="hdLnk" href="index.html#como">Como funciona</a>
+      <a class="hdLnk" href="index.html#sobre">Sobre</a>
+      <a class="hdLnk" href="index.html#footer">Contato</a>
+      <a class="hdLnk" href="index.html#faq">FAQ</a>
+    </nav>
+
+    <div class="hdAct">
+      <a class="hdCart" href="carrinho.html" aria-label="Abrir carrinho">
+        <span class="hdCartIco" aria-hidden="true">
+  <svg width="25" height="25" viewBox="0 0 24 24" fill="none"
+       xmlns="http://www.w3.org/2000/svg">
+    <path d="M6 7h12l-1 13H7L6 7Z"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linejoin="round"/>
+    <path d="M9 7a3 3 0 0 1 6 0"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"/>
+  </svg>
+</span>
+
+        <span class="hdCartQty" data-cart-count>0</span>
+      </a>
+
+      <button class="hdTgl" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="hdMenu">
+        <span class="hdBar"></span><span class="hdBar"></span><span class="hdBar"></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="hdMenu" id="hdMenu" aria-hidden="true" aria-label="Menu">
+    <div class="hdMenuWr">
+      <a class="hdMLnk" href="produtos.html" data-hdclose>Cardápio</a>
+      <a class="hdMLnk" href="index.html#como" data-hdclose>Como funciona</a>
+      <a class="hdMLnk" href="index.html#sobre" data-hdclose>Sobre</a>
+      <a class="hdMLnk" href="index.html#footer" data-hdclose>Contato</a>
+      <a class="hdMLnk" href="index.html#faq" data-hdclose>FAQ</a>
+      <a class="hdMLnk" href="carrinho.html" data-hdclose>Carrinho</a>
+
+      <div class="hdMenuLine" aria-hidden="true"></div>
+
+    </div>
+  </nav>
+</header>
+
+  <main id="conteudo">
+
+  <section class="hm01" aria-label="Destaque">
+    <div class="hm01a">
+      <div class="hm01b" data-fx="up">
+        <h1 class="hm01d">Onde cada detalhe importa.</h1>
+<p class="hm01e">
+  Bolos, tortas, trufas e doces artesanais sob encomenda em Salvador/BA.
+  Sabor marcante, apresentação impecável e atenção em cada detalhe.
+</p>
+
+
+        <div class="hm01f">
+          <a href="produtos.html" data-ui="btn" data-variant="fill">Ver produtos</a>
+          <a href="#como" data-ui="btn" data-variant="outline">Como funciona</a>
+        </div>
+      </div>
+
+      <div class="hm01h" data-fx="up">
+        <img class="hm01i" src="IMG/Artboard 1.png" alt="Banner Dudôce (substituir por foto real)" />
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hm02" aria-label="O que você encontra aqui">
+    <div class="hm02a">
+      <div class="hm02b" data-fx="up">
+        <h2 class="hm02c">O que você encontra aqui</h2>
+<p class="hm02d">
+  Doces pensados para diferentes momentos, preparados sob encomenda
+  com cuidado, sabor marcante e apresentação impecável.
+</p>
+</div>
+
+      <div class="hm02e">
+        <article data-ui="card" data-fx="up">
+          <img src="IMG/boloscerto.jpg" alt="" />
+          <h3>Bolos</h3>
+          <p>Bolos artesanais para celebrar momentos especiais, com sabor marcante e acabamento cuidadoso.</p>
+          <a href="produtos.html?cat=bolos" data-ui="btn" data-variant="fill">Ver cardápio</a>
+        </article>
+
+        <article data-ui="card" data-fx="up">
+          <img src="IMG/tortascerto.jpg" alt="" />
+          <h3>Tortas</h3>
+          <p>Camadas equilibradas, texturas delicadas e sabores que se destacam a cada fatia.</p>
+          <a href="produtos.html?cat=tortas" data-ui="btn" data-variant="fill">Ver cardápio</a>
+        </article>
+
+        <article data-ui="card" data-fx="up">
+          <img src="IMG/trufascerto.jpg" alt="" />
+          <h3>Trufas</h3>
+          <p>Trufas artesanais de sabor intenso, com finalização delicada e perfil sofisticado.</p>
+          <a href="produtos.html?cat=trufas" data-ui="btn" data-variant="fill">Ver cardápio</a>
+        </article>
+
+        <article data-ui="card" data-fx="up">
+          <img src="IMG/docesvariadoscerto.jpg" alt="" />
+          <h3>Doces variados</h3>
+          <p>Brigadeiros, beijinhos e doces variados feitos para adoçar o dia com qualidade.</p>
+          <a href="produtos.html?cat=doces" data-ui="btn" data-variant="fill">Ver cardápio</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hm03" aria-label="Para qual momento?">
+    <div class="hm03a">
+      <div class="hm03b" data-fx="up">
+        <h2 class="hm03c">Para qual momento?</h2>
+        <p class="hm03d">Encontre o doce ideal para cada ocasião, de forma simples e direta.</p>
+      </div>
+
+      <div class="hm03e">
+        <a href="produtos.html?moment=aniversarios" data-ui="cardLink" data-fx="up">
+          <img src="IMG/aniversarios.jpg" alt="" />
+          <div>
+            <h3>Aniversários</h3>
+            <p>Clássicos que não podem faltar na hora de celebrar.</p>
+          </div>
+        </a>
+
+        <a href="produtos.html?moment=presentes" data-ui="cardLink" data-fx="up">
+          <img src="IMG/presentecerto.jpg" alt="" />
+          <div>
+            <h3>Presentes</h3>
+            <p>Doces pensados para presentear, com cuidado no sabor e na apresentação.</p>
+          </div>
+        </a>
+
+        <a href="produtos.html?moment=cafe" data-ui="cardLink" data-fx="up">
+          <img src="IMG/cafedatardecerto.jpg" alt="" />
+          <div>
+            <h3>Café da tarde</h3>
+            <p>Doces leves para acompanhar uma pausa tranquila.</p>
+          </div>
+        </a>
+
+        <a href="produtos.html?moment=porque" data-ui="cardLink" data-fx="up">
+          <img src="IMG/pqsim.jpg" alt="" />
+          <div>
+            <h3>Só porque sim</h3>
+            <p>Porque nem todo doce precisa de um motivo especial.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hm04" aria-label="Mais pedidos">
+    <div class="hm04a">
+      <div class="hm04b" data-fx="up">
+        <h2 class="hm04c">Mais pedidos</h2>
+      </div>
+
+      <div class="hm04e" id="hmMpList" aria-label="Lista de produtos em destaque"></div>
+
+      <div class="hm04f" data-fx="up">
+        <a href="produtos.html" data-ui="btn" data-variant="outline">Ver cardápio completo</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hm05" id="como" aria-label="Como funciona">
+    <div class="hm05a">
+      <div class="hm05b" data-fx="up">
+        <h2 class="hm05c">Como funciona</h2>
+        <p class="hm04d">
+  Um processo simples e transparente, do pedido à entrega.
+</p>
+      </div>
+
+      <ol class="hm05e">
+        <li data-ui="step" data-fx="up">
+          <strong>Escolha seus doces favoritos</strong>
+    <span>Selecione os itens e confira todos os detalhes do pedido.</span>
+        </li>
+        <li data-ui="step" data-fx="up">
+          <strong>Defina a data de entrega</strong>
+    <span>Combinamos a data e os ajustes de forma simples e rápida.</span>
+        </li>
+        <li data-ui="step" data-fx="up">
+          <strong>Preparamos tudo no dia certo</strong>
+    <span>Produção artesanal feita com atenção em cada detalhe.</span>
+        </li>
+        <li data-ui="step" data-fx="up">
+          <strong>Receba fresquinho na sua casa</strong>
+    <span>Entrega cuidadosa para você receber tudo no ponto ideal.</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+
+  <section class="hm06" aria-label="Chamada final">
+    <div class="hm06a" data-fx="up">
+      <img class="hm06b" src="IMG/asswqArtboard 1-100.jpg.jpeg" alt="Banner final Dudôce" />
+      <div class="hm06c">
+        <h2 class="hm06d">Seu momento merece um doce especial!</h2>
+        <a href="produtos.html" class="hm06dbtn" data-ui="btn" data-variant="fill">Fazer meu pedido agora</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hm07" id="sobre" aria-label="Sobre a Dudôce">
+    <div class="hm07a">
+      <div class="hm07b" data-fx="up">
+        <h2 class="hm07c">Sobre a Dudôce</h2>
+        <p class="hm07d">
+           A Dudôce nasceu do cuidado com o sabor e da atenção aos detalhes.
+  Aqui, cada doce é preparado com calma, técnica e afeto, do preparo à entrega.
+        </p>
+        <p class="hm07e">
+        Tudo é feito sob encomenda para que você receba sempre produtos frescos,
+  no ponto certo e com acabamento impecável.
+        </p>
+      </div>
+
+      <div class="hm07f" data-fx="up">
+        <img class="hm07g" src="IMG/sobreimg.jpg" alt="" aria-hidden="true" />
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="hm09" id="faq" aria-label="Perguntas frequentes">
+    <div class="hm09a">
+      <div class="hm09b" data-fx="up">
+        <h2 class="hm09c">FAQ</h2>
+      </div>
+
+      <div class="hm09e" data-fx="up">
+        <details>
+          <summary>Com quanto tempo de antecedência preciso pedir?</summary>
+          <div>
+            <p>Trabalhamos sob encomenda. O ideal é entrar em contato com antecedência
+      para garantir disponibilidade na data desejada.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Vocês entregam em toda Salvador?</summary>
+          <div>
+            <p> Atendemos Salvador e região, com entrega conforme a localização informada.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Posso personalizar meu pedido?</summary>
+          <div>
+            <p>Sim. Algumas personalizações podem ser combinadas diretamente na conversa,
+      de acordo com a disponibilidade.</p>
+          </div>
+        </details>
+
+
+        <details>
+          <summary>Os doces são preparados próximos à data de entrega?</summary>
+          <div>
+            <p>Sim. Os pedidos são preparados próximos à data de entrega
+      para garantir frescor e qualidade.</p>
+          </div>
+        </details>
+
+
+        <details>
+  <summary>Posso tirar dúvidas antes de confirmar o pedido?</summary>
+  <div>
+    <p>
+      Claro. Fique à vontade para conversar e esclarecer qualquer dúvida antes de confirmar.
+    </p>
+  </div>
+</details>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+  <footer class="ft" id="footer">
+  <div class="ftWr">
+    <div class="ftCol">
+      <a class="ftLogo" href="index.html" aria-label="Voltar para a home">
+        <img class="ftLogoImg" src="IMG/logodudocebege.png" alt="Dudôce" />
+      </a>
+
+      <p class="ftTxt">
+        Confeitaria artesanal Dudôce — doces feitos sob encomenda com carinho e acabamento premium.
+      </p>
+    </div>
+
+    <nav class="ftNav" aria-label="Links do site">
+      <a class="ftLnk" href="produtos.html">Cardápio</a>
+      <a class="ftLnk" href="index.html#como">Como funciona</a>
+      <a class="ftLnk" href="index.html#sobre">Sobre</a>
+      <a class="ftLnk" href="index.html#footer">Contato</a>
+      <a class="ftLnk" href="index.html#faq">FAQ</a>
+    </nav>
+
+    <div class="ftCol">
+      <p class="ftMini">© <span data-year></span> Dudôce. Todos os direitos reservados.</p>
+
+      <div class="ftSoc" aria-label="Redes sociais">
+        <div class="ftSocTit">Redes sociais</div>
+
+        <div class="ftSocRow">
+          <a class="ftSocLnk" href="mailto:contato@dudoce.com.br" aria-label="Enviar e-mail">
+            <span class="ftSocIco" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+                <path d="M4 6h16v12H4V6Z" stroke="currentColor" stroke-width="1.8" />
+                <path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <span class="ftSocTxt">E-mail</span>
+          </a>
+
+          <a class="ftSocLnk" href="https://instagram.com/dudoce" target="_blank" rel="noopener" aria-label="Abrir Instagram">
+            <span class="ftSocIco" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+                <path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M17.5 6.5h.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span class="ftSocTxt">Instagram</span>
+          </a>
+
+          <a class="ftSocLnk" href="#" data-wa-direct aria-label="Abrir WhatsApp">
+            <span class="ftSocIco" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+                <path d="M20 12a8 8 0 0 1-12.8 6.4L4 19l.7-3.1A8 8 0 1 1 20 12Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M9.2 9.2c.3-.6.4-.6.7-.6h.5c.1 0 .3 0 .4.3l.7 1.6c.1.2.1.4 0 .6l-.3.4c-.1.1-.2.3-.1.5.2.4.6 1.1 1.3 1.6.7.6 1.4.8 1.8.9.2.1.4 0 .5-.1l.5-.6c.2-.2.3-.2.6-.1l1.6.7c.2.1.3.2.3.4v.5c0 .3 0 .4-.6.7-.6.3-1.9.6-3.6-.2-1.7-.8-3.2-2.5-3.9-4-.7-1.5-.6-2.7-.3-3.3Z" fill="currentColor" opacity=".85"/>
+              </svg>
+            </span>
+            <span class="ftSocTxt">WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <a href="#" data-fab="top" aria-label="Voltar ao topo">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <path d="M12 19V5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M6 11l6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</a>
+
+  <a href="#" data-fab="wa" data-wa-direct aria-label="WhatsApp">
+    <img src="https://img.icons8.com/ios-filled/50/F3E6C3/whatsapp--v1.png" alt="">
+  </a>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
